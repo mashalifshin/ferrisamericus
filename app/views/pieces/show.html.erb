@@ -1,0 +1,16 @@
+<div class="show_piece">
+	<div class="title">
+		<%= @piece.title %>
+	</div>
+	<div class="date">
+		<%= @piece.date %>
+	</div>
+	<div class="description">
+		<%= @piece.description %>
+	</div>
+	<div class="images">
+		<% @piece.piece_images.each do |image| %>
+			<%= image_tag image.image.large %>
+		<% end %>
+	</div>
+</div>

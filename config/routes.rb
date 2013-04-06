@@ -5,6 +5,11 @@ Ferrisamericus::Application.routes.draw do
 
   root :to => "pieces#index"
   
+  match 'pieces' => 'pieces#index'
+  match 'pieces/:title' => 'pieces#show', :as => 'piece'
+  
+  match 'about' => 'abouts#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
