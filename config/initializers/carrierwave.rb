@@ -11,4 +11,5 @@ CarrierWave.configure do |config|
 
   config.fog_directory    = ENV['FOG_DIRECTORY']
   config.asset_host       = ENV['CLOUDFRONT_DISTRIBUTION_DOMAIN']
+  config.fog_attributes   = {'Cache-Control'=>'max-age=315576000'}
 end
