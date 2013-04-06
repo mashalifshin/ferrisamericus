@@ -6,7 +6,7 @@
 		<%= @piece.date %>
 	</div>
 	<div class="description">
-		<%= @piece.description %>
+		<%= simple_format @piece.description %>
 	</div>
 	<div class="images">
 		<% @piece.piece_images.each do |image| %>
