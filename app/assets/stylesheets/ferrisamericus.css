@@ -177,14 +177,14 @@ span#about_link a:active, h1#ferris_americus a:active {
 	Error messages and notices
 **/
 .flash_notice {
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Raleway Dots', sans-serif;
 	color: LightGreen;
 	width: 100%;
 	text-align: center;
 }
 
 .flash_error {
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Raleway Dots', sans-serif;
 	color: Crimson;
 	width: 100%;
 	text-align: center;

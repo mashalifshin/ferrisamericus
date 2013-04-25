@@ -1,9 +1,7 @@
 .authentication_zone {
-	/* INSERT FONT HERE
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Raleway Dots', sans-serif;
 	font-size: 1.2em;
-	color: gray;
-	*/
+	color: #aaa;
 }
 
 .authentication_zone form#new_user {
@@ -29,7 +27,7 @@
 }
 
 .authentication_zone .authentication_button {
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Raleway Dots', sans-serif;
 	font-size: 1em;
 	text-align: center;
 	text-transform: uppercase;
@@ -60,6 +58,7 @@
 .authentication_zone .authentication_button#reset_instructions_button,
 .authentication_zone .authentication_button#change_password_button {
 	float: left;
+	text-transform: none;
 }
 
 .authentication_zone #error_explanation {
@@ -93,4 +92,9 @@
 	margin-top: 3%;
 	width: 100%;
 	display: inline-block;
+}
+
+#devise_authentication_links a {
+	text-decoration: none;
+	color: DodgerBlue;
 }
