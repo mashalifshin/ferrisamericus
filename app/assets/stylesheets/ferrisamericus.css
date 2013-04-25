@@ -49,7 +49,7 @@ span#about_link a:active, h1#ferris_americus a:active {
 }
 
 /** 
-	Pieces
+	Pieces Index
 **/
 .pieces {
 	margin-left: 3.5em;
@@ -96,6 +96,51 @@ span#about_link a:active, h1#ferris_americus a:active {
 .piece a:active {
 	color: darkOrange;
 	border: 1px dotted darkOrange;
+}
+
+/**
+	Show piece
+**/
+.show_piece {
+	font-family: 'Raleway Dots', sans-serif;
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.show_piece .title {
+	font-size: 1.5em;
+	color: #a5a;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	letter-spacing: .5em;
+}
+
+.show_piece .date {
+	font-weight: bold;
+	text-align: right;
+}
+
+.show_piece .images {
+	text-align: center;
+}
+
+.show_piece .images img {
+	border: 1px dotted #ccc;
+	background-color: #efefef;
+	padding: 2em;
+	margin: .5em;
+}
+
+.show_piece .description p {
+	font-size: 1.2em;
+	letter-spacing: .2em;
+	margin-bottom: 2%;
+	font-weight: bold;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /** 
