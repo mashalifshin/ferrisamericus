@@ -3,7 +3,7 @@
 	  <div class="piece">
 		<%= link_to(piece) do %>
 				<%= image_tag(piece.piece_images.first.image.thumbnail, :alt => piece.title) %>
-				<%= piece.title %>
+				<span class="title"><%= piece.title %></span>
 		<% end %>
 	  </div>
 	<% end %>

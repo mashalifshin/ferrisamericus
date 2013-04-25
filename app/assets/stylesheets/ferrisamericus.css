@@ -7,13 +7,45 @@ h1#ferris_americus {
 	color: rgb(63, 0, 53);
 	text-align: left;
 	width: 100%;
-	padding: 5px;
+	padding: .5em;
 	letter-spacing: 1em;
 	background-color: #efefef;
 	border-bottom: 1px solid slateGrey;
+	margin-bottom: .5em;
 	-moz-box-shadow: 0px 3px 3px #ccc;
 	-webkit-box-shadow: 0px 3px 3px #ccc;
 	box-shadow: 0px 3px 3px #ccc;
+	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
+}
+
+span#about_link {
+	font-family: 'Raleway Dots', sans-serif;
+	font-size: .7em;
+	letter-spacing: 1.5em;
+	position: absolute;
+	top: .5em;
+	right: 0;
+	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
+}
+
+h1#ferris_americus a {
+	text-decoration: none;
+}
+
+span#about_link a {
+	color: DodgerBlue;
+	text-decoration: none;
+}
+span#about_link a:link, h1#ferris_americus a:link {}
+span#about_link a:visited, h1#ferris_americus a:visited {}
+span#about_link a:hover {
+	text-shadow: 0px 0px 2px yellow, 0px 3px 5px gray;
+}
+h1#ferris_americus a:hover {
+	text-shadow: 0px 0px 2px Khaki, 0px 3px 5px gray;
+}
+span#about_link a:active, h1#ferris_americus a:active {
+	color: darkOrange;
 }
 
 /** 
@@ -23,14 +55,20 @@ h1#ferris_americus {
 }
 
 .piece {
-	width: 200px;
-	height: 200px;
-	margin: 1em;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .piece img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.piece .title {
 	width: 200px;
+	display: block;
+	margin-top: 0.5em;
 }
 
 .piece a {
@@ -40,17 +78,23 @@ h1#ferris_americus {
 	text-decoration: none;
 	background-color: #efefef;
 	font-size: 1em;
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+	border: 1px dotted #ccc;
 }
 
 .piece a:link {}
-.piece a:active {
-	color: black;
+.piece a:visited {
+	color: BlueViolet;
 }
 .piece a:hover {
 	color: deepPink;
+	border: 1px dotted deepPink;
 }
-.piece a:visited {
-	color: purple;
+.piece a:active {
+	color: darkOrange;
+	border: 1px dotted darkOrange;
 }
 
 /** 
