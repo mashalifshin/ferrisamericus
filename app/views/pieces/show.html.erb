@@ -6,13 +6,13 @@
 		<%= @piece.date.strftime('%B, %Y') %>
 	</div>
 	<div class="first_image images">
-		<%= image_tag @piece.piece_images.first.image.large %>
+		<%= image_tag @piece.piece_images.ordered.first.image.large %>
 	</div>
 	<div class="description">
 		<%= simple_format @piece.description %>
 	</div>
 	<div class="images">
-		<% @piece.piece_images.drop(1).each do |image| %>
+		<% @piece.piece_images.ordered.drop(1).each do |image| %>
 			<%= image_tag image.image.large %>
 		<% end %>
 	</div>

@@ -2,7 +2,7 @@
 	<% @pieces.each do |piece| %>
 	  <div class="piece">
 		<%= link_to(piece) do %>
-				<%= image_tag(piece.piece_images.first.image.thumbnail, :alt => piece.title) %>
+				<%= image_tag(piece.piece_images.ordered.first.image.thumbnail, :alt => piece.title) %>
 				<span class="title"><%= piece.title %></span>
 		<% end %>
 	  </div>
