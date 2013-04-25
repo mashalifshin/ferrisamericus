@@ -1,8 +1,10 @@
 <div class="pieces">
 	<% @pieces.each do |piece| %>
+	  <div class="piece">
 		<%= link_to(piece) do %>
-			<%= image_tag(piece.piece_images.first.image.thumbnail, :alt => piece.title) %>
-			<%= piece.title %>
+				<%= image_tag(piece.piece_images.first.image.thumbnail, :alt => piece.title) %>
+				<%= piece.title %>
 		<% end %>
+	  </div>
 	<% end %>
 </div>

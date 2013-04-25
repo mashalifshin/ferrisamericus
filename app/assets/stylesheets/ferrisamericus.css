@@ -1,0 +1,71 @@
+/** 
+	Ferris Americus Header
+**/
+h1#ferris_americus {
+	font-family: 'Codystar', Serif;
+	font-size: 2em;
+	color: rgb(63, 0, 53);
+	text-align: left;
+	width: 100%;
+	padding: 5px;
+	letter-spacing: 1em;
+	background-color: #efefef;
+	border-bottom: 1px solid slateGrey;
+	-moz-box-shadow: 0px 3px 3px #ccc;
+	-webkit-box-shadow: 0px 3px 3px #ccc;
+	box-shadow: 0px 3px 3px #ccc;
+}
+
+/** 
+	Pieces
+**/
+.pieces {
+}
+
+.piece {
+	width: 200px;
+	height: 200px;
+	margin: 1em;
+	display: inline-block;
+}
+
+.piece img {
+	width: 200px;
+}
+
+.piece a {
+	font-family: 'Codystar';
+	color: DodgerBlue;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #efefef;
+	font-size: 1em;
+}
+
+.piece a:link {}
+.piece a:active {
+	color: black;
+}
+.piece a:hover {
+	color: deepPink;
+}
+.piece a:visited {
+	color: purple;
+}
+
+/** 
+	Error messages and notices
+**/
+.flash_notice {
+	font-family: 'Poiret One', sans-serif;
+	color: LightGreen;
+	width: 100%;
+	text-align: center;
+}
+
+.flash_error {
+	font-family: 'Poiret One', sans-serif;
+	color: Crimson;
+	width: 100%;
+	text-align: center;
+}

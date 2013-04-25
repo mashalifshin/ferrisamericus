@@ -1,0 +1,96 @@
+.authentication_zone {
+	/* INSERT FONT HERE
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.2em;
+	color: gray;
+	*/
+}
+
+.authentication_zone form#new_user {
+	margin-top: 5%;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.authentication_zone input {
+	margin-bottom: 5%;
+}
+
+.authentication_zone input[type="password"],
+.authentication_zone input[type="email"] {
+	width: 100%;
+}
+
+.authentication_zone .authentication_button {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bAbAbA), to(#5A5A5A));
+	background: -moz-linear-gradient(bottom, #bAbAbA, #5A5A5A);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bAbAbA', endColorstr='#5A5A5A');
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	-webkit-box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+	-moz-box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+	box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+	color: #fff;
+	padding: .3em;
+	display: inline-block;
+	letter-spacing: 2px;
+	float: right;
+}
+
+.authentication_zone .authentication_button:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#6e6e6e), to(#333));
+	background: -moz-linear-gradient(bottom, #6e6e6e, #333);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6e6e6e', endColorstr='#333');
+	cursor: pointer;
+}
+
+.authentication_zone .authentication_button#reset_instructions_button,
+.authentication_zone .authentication_button#change_password_button {
+	float: left;
+}
+
+.authentication_zone #error_explanation {
+	margin-bottom: 3%;
+}
+
+.authentication_zone #error_explanation ul {
+	list-style: circle;
+	color: Crimson;
+}
+
+.authentication_zone .field_with_errors {
+	display: inline-block;
+}
+
+.authentication_zone .field_with_errors label {
+	border: 1px dotted Crimson;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.authentication_zone .field_with_errors input {
+	margin-top: 1%;
+}
+
+#devise_authentication_links {
+	color: black;
+	letter-spacing: 4px;
+	text-align: center;
+	margin-top: 3%;
+	width: 100%;
+	display: inline-block;
+}
