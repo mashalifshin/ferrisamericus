@@ -143,6 +143,36 @@ span#about_link a:active, h1#ferris_americus a:active {
 	margin-right: auto;
 }
 
+/**
+	About page
+**/
+.information {
+	font-family: 'Raleway Dots', sans-serif;
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.information img {
+	border: 1px dotted #ccc;
+	background-color: #efefef;
+	padding: 2em;
+	margin: .5em;
+}
+
+.information p {
+	text-align: left;
+	font-size: 1.2em;
+	color: BlueViolet;
+	letter-spacing: .2em;
+	margin-bottom: 2%;
+	font-weight: bold;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /** 
 	Error messages and notices
 **/
