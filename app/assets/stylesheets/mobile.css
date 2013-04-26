@@ -7,24 +7,34 @@ h1#ferris_americus {
 
 span#about_link {
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 1.5em;
+}
+
+.piece a {
+	font-size: 1.5em;
 }
 
 .show_piece .title {
 	font-weight: bold;
+	font-size: 2.5em;
 }
 
 .show_piece .date {
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .show_piece .description p {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .show_piece .images img, 
 .information img,
 .piece a {
+	border: none;
+}
+
+.piece a:hover,
+.piece a:active {
 	border: none;
 }

@@ -2,7 +2,7 @@
 	Ferris Americus Header
 **/
 h1#ferris_americus {
-	font-family: 'Codystar', Serif;
+	font-family: 'Codystar', sans-serif;
 	font-size: 2em;
 	color: rgb(63, 0, 53);
 	text-align: left;
@@ -16,6 +16,7 @@ h1#ferris_americus {
 	-webkit-box-shadow: 0px 3px 3px #ccc;
 	box-shadow: 0px 3px 3px #ccc;
 	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
+	display: block;
 }
 
 span#about_link {
@@ -26,7 +27,7 @@ span#about_link {
 	top: .5em;
 	right: 0;
 	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
-	display: inline-block;
+	display: block;
 }
 
 h1#ferris_americus a {
@@ -74,7 +75,7 @@ span#about_link a:active, h1#ferris_americus a:active {
 }
 
 .piece a {
-	font-family: 'Codystar';
+	font-family: 'Codystar', sans-serif;
 	color: DodgerBlue;
 	font-weight: bold;
 	text-decoration: none;
