@@ -26,6 +26,7 @@ span#about_link {
 
 .show_piece .description p {
 	font-size: 2em;
+	width: 100%;
 }
 
 .show_piece .images img, 

@@ -1,7 +1,7 @@
 /** 
 	Ferris Americus Header
 **/
-h1#ferris_americus {
+#ferris_americus {
 	font-family: 'Codystar', sans-serif;
 	font-size: 2em;
 	color: rgb(63, 0, 53);
@@ -16,37 +16,36 @@ h1#ferris_americus {
 	-webkit-box-shadow: 0px 3px 3px #ccc;
 	box-shadow: 0px 3px 3px #ccc;
 	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
-	display: block;
 }
 
-span#about_link {
+#about_link {
 	font-family: 'Raleway Dots', sans-serif;
 	font-size: .7em;
 	letter-spacing: 1.5em;
 	position: absolute;
 	top: .5em;
-	right: 0;
+	right: 0em;
 	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
-	display: block;
+	width: 11em;
 }
 
-h1#ferris_americus a {
+#ferris_americus a {
 	text-decoration: none;
 }
 
-span#about_link a {
+#about_link a {
 	color: DodgerBlue;
 	text-decoration: none;
 }
-span#about_link a:link, h1#ferris_americus a:link {}
-span#about_link a:visited, h1#ferris_americus a:visited {}
-span#about_link a:hover {
+#about_link a:link, #ferris_americus a:link {}
+#about_link a:visited, #ferris_americus a:visited {}
+#about_link a:hover {
 	text-shadow: 0px 0px 2px yellow, 0px 3px 5px gray;
 }
-h1#ferris_americus a:hover {
+#ferris_americus a:hover {
 	text-shadow: 0px 0px 2px Khaki, 0px 3px 5px gray;
 }
-span#about_link a:active, h1#ferris_americus a:active {
+#about_link a:active, #ferris_americus a:active {
 	color: darkOrange;
 }
 
