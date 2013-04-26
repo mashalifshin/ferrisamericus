@@ -4,12 +4,11 @@ Ferrisamericus::Application.routes.draw do
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
   root :to => "pieces#index"
-  
-  match 'pieces' => 'pieces#index'
-  match 'pieces/:title' => 'pieces#show', :as => 'piece'
-  
+
   match 'about' => 'abouts#index'
-  
+  match 'pieces' => 'pieces#index'
+  match '/:title' => 'pieces#show', :as => 'piece'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
