@@ -1,0 +1,25 @@
+/**
+	Override some styles for mobile.
+**/
+span#about_link {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.show_piece .title {
+	font-weight: bold;
+}
+
+.show_piece .date {
+	font-weight: bold;
+}
+
+.show_piece .description {
+	font-weight: bold;
+}
+
+.show_piece .images img, 
+.information img,
+.piece a {
+	border: none;
+}
