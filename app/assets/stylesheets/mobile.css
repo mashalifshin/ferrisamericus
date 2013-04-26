@@ -1,6 +1,10 @@
 /**
 	Override some styles for mobile.
 **/
+h1#ferris_americus {
+	font-weight: bold;
+}
+
 span#about_link {
 	font-weight: bold;
 	font-size: 1em;
@@ -12,10 +16,11 @@ span#about_link {
 
 .show_piece .date {
 	font-weight: bold;
+	font-size: 1.5em;
 }
 
-.show_piece .description {
-	font-weight: bold;
+.show_piece .description p {
+	font-size: 1.5em;
 }
 
 .show_piece .images img, 
