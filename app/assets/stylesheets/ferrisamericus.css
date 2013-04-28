@@ -28,7 +28,7 @@
 	text-shadow: 0px 0px 2px lightYellow, 0px 3px 5px gray;
 	width: 11em;
 	height: 1em;
-	display: block;
+	display: inline-block;
 }
 
 #ferris_americus a {
