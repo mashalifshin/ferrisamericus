@@ -80,7 +80,7 @@
 	font-weight: bold;
 	text-decoration: none;
 	background-color: #efefef;
-	font-size: 1em;
+	font-size: 1.5em;
 	display: inline-block;
 	padding: 1em;
 	margin: 1em;
@@ -111,10 +111,10 @@
 }
 
 .show_piece .title {
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #a5a;
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 2%;
 	margin-bottom: 1%;
 	letter-spacing: .5em;
 }
