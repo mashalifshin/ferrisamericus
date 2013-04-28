@@ -10,6 +10,10 @@ h1#ferris_americus {
 	font-size: 2em;
 }
 
+.piece a {
+	font-size: 2.5em;
+}
+
 .show_piece .title {
 	font-weight: bold;
 	font-size: 3em;
