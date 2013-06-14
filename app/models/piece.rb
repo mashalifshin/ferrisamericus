@@ -10,6 +10,10 @@ class Piece < ActiveRecord::Base
   
   scope :chronological, :conditions => 'live IS TRUE', :order => 'date DESC'
   
+  def to_param
+    title.gsub ' ', '_'
+  end
+
   def self.find_by_param input
       find_by_title input.gsub '_', ' '
   end
